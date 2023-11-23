@@ -1,0 +1,149 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --primary-color: rgb(84, 105, 212);
+    --err: #fe7575;
+    background-color: whitesmoke;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgba(159, 149, 149, 0.746);
+    font-size: 1rem;
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.661);
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline-color: var(--primary-color);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 40px black inset;
+}
+
+
+.range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.range input {
+    width: 100%;
+}
+
+.error {
+    color: var(--err);
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.08);
+}
+
+.home {
+    max-width: 800px;
+    background-color: white;
+    min-height: 100vh;
+    padding: 30px;
+    margin: auto;
+}
+
+.paper {
+    margin-top: 30px;
+}
+
+.questions {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    column-gap: 20px;
+    row-gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left .text {
+    width: 100%;
+    font-weight: 600;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.subject,
+.topic {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.topic {
+    background-color: grey;
+}
+
+.easy {
+    color: green;
+}
+
+.medium {
+    color: orange;
+}
+
+.hard {
+    color: red;
+}

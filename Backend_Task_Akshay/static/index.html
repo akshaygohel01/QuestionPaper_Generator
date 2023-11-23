@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="home">
+
+        <h2>Paper generator</h2>
+        <div class="form">
+            <div class="item">
+
+                <label for="#marks">Marks : </label>
+                <input id="marks" type="number" value="100" />
+            </div>
+
+            <div class="item">
+
+                <label> Select difficulty : </label>
+
+                <div class="range">
+                    <label for="easy">Easy</label>
+                    <input id="easy" type="range" oninput="updateValue(event)">
+                    <span class="indicator">50%</span>
+                </div>
+                <div class="range">
+                    <label for="medium">Medium</label>
+                    <input id="medium" value="30" type="range" oninput="updateValue(event)">
+                    <span class="indicator">30%</span>
+                </div>
+                <div class="range">
+                    <label for="hard">Hard</label>
+                    <input id="hard" type="range" value="20" oninput="updateValue(event)">
+                    <span class="indicator">20%</span>
+                </div>
+
+            </div>
+            <div class="btn" onclick="generate()">Generate</div>
+        </div>
+
+        <div class="paper">
+            
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+
+</html>

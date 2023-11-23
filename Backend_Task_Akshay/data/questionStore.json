@@ -1,0 +1,247 @@
+[
+    {
+        "question": "What is the speed of light?",
+        "subject": "Physics",
+        "topic": "Waves",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Define Newton's first law of motion.",
+        "subject": "Physics",
+        "topic": "Mechanics",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Solve x^2 + 4 = 0.",
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Explain the concept of inheritance in OOP.",
+        "subject": "Computer Science",
+        "topic": "Object-Oriented Programming",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "What is the capital of France?",
+        "subject": "General Knowledge",
+        "topic": "Geography",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Name three types of clouds.",
+        "subject": "Environmental Science",
+        "topic": "Meteorology",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "subject": "Literature",
+        "topic": "Shakespeare",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "subject": "Chemistry",
+        "topic": "Elements",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "subject": "Astronomy",
+        "topic": "Planets",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "What is the boiling point of water in Celsius?",
+        "subject": "Chemistry",
+        "topic": "States of Matter",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Who is known as the 'Father of Computer'?",
+        "subject": "Computer Science",
+        "topic": "History of Computers",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "In which year did the World War II end?",
+        "subject": "History",
+        "topic": "World War II",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "What is the square root of 144?",
+        "subject": "Mathematics",
+        "topic": "Arithmetic",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Name the process by which plants make their own food.",
+        "subject": "Biology",
+        "topic": "Photosynthesis",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "subject": "Art",
+        "topic": "Painting",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "Explain the phenomenon of total internal reflection.",
+        "subject": "Physics",
+        "topic": "Optics",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Prove the Pythagorean Theorem using geometric methods.",
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "Describe the differences between depth-first search (DFS) and breadth-first search (BFS) algorithms.",
+        "subject": "Computer Science",
+        "topic": "Algorithms",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Who is the current Prime Minister of Canada?",
+        "subject": "General Knowledge",
+        "topic": "Politics",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Discuss the concept of a food chain and provide an example.",
+        "subject": "Environmental Science",
+        "topic": "Ecology",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Identify the poet of the famous poem 'The Road Not Taken.'",
+        "subject": "Literature",
+        "topic": "Poetry",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Draw the structural formula for benzene and explain its unique bonding pattern.",
+        "subject": "Chemistry",
+        "topic": "Organic Chemistry",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "Compare and contrast a white dwarf and a neutron star.",
+        "subject": "Astronomy",
+        "topic": "Stars",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Name one of the Seven Wonders of the Ancient World and provide a brief description.",
+        "subject": "History",
+        "topic": "Ancient Civilizations",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Solve the differential equation dy/dx = 2x, given that y(0) = 3.",
+        "subject": "Mathematics",
+        "topic": "Calculus",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "Explain the difference between dominant and recessive alleles in genetics.",
+        "subject": "Biology",
+        "topic": "Genetics",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Who sculpted the statue of David?",
+        "subject": "Art",
+        "topic": "Sculpture",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Define the term 'archipelago' and provide an example.",
+        "subject": "Geography",
+        "topic": "Landforms",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "State the laws of thermodynamics and explain their significance.",
+        "subject": "Physics",
+        "topic": "Thermodynamics",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "What is the difference between an array and a linked list?",
+        "subject": "Computer Science",
+        "topic": "Data Structures",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Define pH and explain its importance in the context of acids and bases.",
+        "subject": "Chemistry",
+        "topic": "Acids and Bases",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "Discuss the concept of short-term memory and its role in cognitive processes.",
+        "subject": "Psychology",
+        "topic": "Cognitive Psychology",
+        "difficulty": "Hard",
+        "marks": 10
+    },
+    {
+        "question": "Who won the FIFA World Cup in 2018?",
+        "subject": "Sports",
+        "topic": "Soccer",
+        "difficulty": "Easy",
+        "marks": 2
+    },
+    {
+        "question": "Explain the law of diminishing marginal utility.",
+        "subject": "Economics",
+        "topic": "Microeconomics",
+        "difficulty": "Medium",
+        "marks": 5
+    },
+    {
+        "question": "In JSON format, write a question.",
+        "subject": "Programming",
+        "topic": "JSON",
+        "difficulty": "Easy",
+        "marks": 2
+    }
+]
